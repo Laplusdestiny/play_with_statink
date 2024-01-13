@@ -5,7 +5,7 @@ description = ""
 authors = ["Toru Sumi <prayonshootingstars@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = "^3.8"
 pandas = "*"
 plotly = "*"
 tqdm = "*"
@@ -15,8 +15,15 @@ jupyterlab = "*"
 jupyter = "*"
 missingno = "*"
 ipywidgets = "*"
+kaleido = "0.2.1"
+japanize_matplotlib = "*"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "*"
+altair = "<5.0.0"
+ipykernel = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
